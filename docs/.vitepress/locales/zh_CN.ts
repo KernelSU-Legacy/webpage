@@ -24,7 +24,7 @@ export default defineConfig({
     ],
     
     footer: {
-        message: 'Released under the GPL2 and GPL3 License.',
+        message: '基于 GPL2 和 GPL3 许可证发行。图标归 KernelSU-Next 所有。',
         copyright: '© 2025 KernelSU Legacy. All rights reserved'
     },
 

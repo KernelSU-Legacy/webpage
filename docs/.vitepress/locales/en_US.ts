@@ -23,7 +23,7 @@ export default defineConfig({
     ],
     
     footer: {
-        message: 'Released under the GPL2 and GPL3 License.',
+        message: 'Released under the GPL2 and GPL3 License. Logo owned by KernelSU-Next.',
         copyright: '© 2025 KernelSU Legacy. All rights reserved'
     },
 

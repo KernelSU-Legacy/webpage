@@ -8,7 +8,11 @@
 
 ### KernelSU Legacy
 ::: code-group
-```sh [v3-legacy (推荐)]
+```sh [v1.1.1 (推荐)]
+curl -LSs "https://raw.githubusercontent.com/KernelSU-Legacy/KernelSU-Legacy/v1.1.1/kernel/setup.sh" | bash -
+```
+
+```sh [v3-legacy (Alpha 预览版)]
 curl -LSs "https://raw.githubusercontent.com/KernelSU-Legacy/KernelSU-Legacy/v3-legacy-susfs/kernel/setup.sh" | bash -
 ```
 

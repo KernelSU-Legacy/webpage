@@ -8,7 +8,11 @@ Copy, paste and run! Easy integration CLI commands
 
 ### KernelSU Legacy
 ::: code-group
-```sh [v3-legacy (Recommended)]
+```sh [v1.1.1 (Recommended)]
+curl -LSs "https://raw.githubusercontent.com/KernelSU-Legacy/KernelSU-Legacy/v1.1.1/kernel/setup.sh" | bash -
+```
+
+```sh [v3-legacy (Alpha)]
 curl -LSs "https://raw.githubusercontent.com/KernelSU-Legacy/KernelSU-Legacy/v3-legacy-susfs/kernel/setup.sh" | bash -
 ```
 

@@ -107,8 +107,8 @@
         "maintainer": "hauzer",
         "img": "https://avatars.githubusercontent.com/u/2883385?s=48&v=4",
         "maintainer_link": "https://github.com/hauzer",
-        "kernel_name": "poco-f3_lineageos_kernelsu-next_susfs",
-        "kernel_link": "https://github.com/hauzer/poco-f3_lineageos_kernelsu-next_susfs",
+        "kernel_name": "poco-f3_lineageos_kernelsu-legacy_susfs",
+        "kernel_link": "https://github.com/hauzer/poco-f3_lineageos_kernelsu-legacy_susfs",
         "devices": "Poco F3 (alioth)"
     },
     {
@@ -244,7 +244,7 @@
         "img": "https://avatars.githubusercontent.com/archer-h61m?v=4",
         "maintainer_link": "https://github.com/archer-h61m",
         "kernel_name": "KaliYuNai_Kernel_8550",
-        "kernel_link": "https://github.com/archer-h61m/KaliYuNai_Kernel_8550/tree/next-5.15",
+        "kernel_link": "https://github.com/archer-h61m/KaliYuNai_Kernel_8550/tree/legacy-5.15",
         "devices": "Samsung Galaxy S23 Serires (Snapdragon 8 Gen 2)"
     },
     {
@@ -291,8 +291,8 @@
         "maintainer": "DerGoogler",
         "img": "https://avatars.githubusercontent.com/DerGoogler?v=4",
         "maintainer_link": "https://github.com/DerGoogler",
-        "kernel_name": "android_kernel_samsung_sm6150_KernelSU-Next",
-        "kernel_link": "https://github.com/DerGoogler/android_kernel_samsung_sm6150_KernelSU-Next",
+        "kernel_name": "android_kernel_samsung_sm6150_KernelSU-Legacy",
+        "kernel_link": "https://github.com/DerGoogler/android_kernel_samsung_sm6150_KernelSU-Legacy",
         "devices": "Samsung Galaxy A70q and A70s"
     },
     {
@@ -315,8 +315,8 @@
         "maintainer": "GoRhanhee",
         "img": "https://avatars.githubusercontent.com/GoRhanhee?v=4",
         "maintainer_link": "https://github.com/GoRhanhee",
-        "kernel_name": "GalaxyS20_Series_KernelSU_Next_Susfs",
-        "kernel_link": "https://github.com/GoRhanhee/GalaxyS20_Series_KernelSU_Next_Susfs",
+        "kernel_name": "GalaxyS20_Series_KernelSU_Legacy_Susfs",
+        "kernel_link": "https://github.com/GoRhanhee/GalaxyS20_Series_KernelSU_Legacy_Susfs",
         "devices": "Galaxy S20/S20+/S20U Snapdragon"
     },
     {
@@ -428,8 +428,8 @@
         "maintainer": "Hargriv",
         "img": "https://avatars.githubusercontent.com/Hargriv?v=4",
         "maintainer_link": "https://gitlab.com/Hargriv/",
-        "kernel_name": "exynos990-note20ultra-ksunext",
-        "kernel_link": "https://gitlab.com/Hargriv/exynos990-note20ultra-ksunext",
+        "kernel_name": "exynos990-note20ultra-ksulegacy",
+        "kernel_link": "https://gitlab.com/Hargriv/exynos990-note20ultra-ksulegacy",
         "devices": "Samsung Note 20 Ultra -C2S- ( N986B N985F )"
     },
     {

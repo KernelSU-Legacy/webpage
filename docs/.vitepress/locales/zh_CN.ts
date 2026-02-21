@@ -25,12 +25,12 @@ export default defineConfig({
     
     footer: {
         message: 'Released under the GPL2 and GPL3 License.',
-        copyright: '© 2025 KernelSU Next. All rights reserved'
+        copyright: '© 2025 KernelSU Legacy. All rights reserved'
     },
 
     socialLinks: [
-      { icon: 'github',  link: 'https://github.com/KernelSU-Next' },
-      { icon: 'telegram', link: 'https://t.me/ksunext' }
+      { icon: 'github',  link: 'https://github.com/KernelSU-Legacy' },
+      { icon: 'telegram', link: 'https://t.me/ksulegacy' }
     ]
   }
 })

@@ -3,7 +3,7 @@ import locales from './locales'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "KernelSU Next",
+  title: "KernelSU Legacy",
   locales: locales.locales,
   base: '/webpage/'
 })

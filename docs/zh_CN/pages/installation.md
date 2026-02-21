@@ -1,23 +1,33 @@
 # 安装
 
-## 轻松集成
-复制、粘贴并运行！轻松集成的 CLI 命令
+## 快捷集成
+复制、粘贴并运行！简单的命令行集成命令。
 
->[!info] 信息
->根据自己的需求在内核源代码根目录下运行下列命令。  
-***请注意：Dev 分支未经充分测试，可能不适用大多数设备环境，发现 bug 有能力请自己修或向开发者提交 issue。***
+>[!note]
+>根据您的需求，在内核源码根目录运行以下命令。
 
-
-### KernelSU Next
+### KernelSU Legacy
 ::: code-group
-```sh [最新发行版本（稳定版）]
-curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
+```sh [v3-legacy (推荐)]
+curl -LSs "https://raw.githubusercontent.com/KernelSU-Legacy/KernelSU-Legacy/v3-legacy-susfs/kernel/setup.sh" | bash -
 ```
 
-```sh [Next 分支（Dev）]
-curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -s next
+```sh [特定 标签/分支]
+curl -LSs "https://raw.githubusercontent.com/KernelSU-Legacy/KernelSU-Legacy/v3-legacy-susfs/kernel/setup.sh" | bash -s <tag-or-branch>
 ```
+:::
 
-```sh [指定版本标签（以 v1.0.3 为例）]
-curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -s v1.0.8
-```
+## 手动集成
+
+如果您更喜欢手动集成，可以克隆仓库并将 `kernel` 目录软链接到您的内核源码中：
+
+1. 克隆仓库：
+   ```sh
+   git clone https://github.com/KernelSU-Legacy/KernelSU-Legacy
+   ```
+2. 建立软链接：
+   ```sh
+   ln -sf /path/to/KernelSU-Legacy/kernel /path/to/your/kernel/drivers/kernelsu
+   ```
+3. 在 `drivers/Makefile` 中添加 `obj-y += kernelsu/`。
+4. 在 `drivers/Kconfig` 中添加 `source "drivers/kernelsu/Kconfig"`。

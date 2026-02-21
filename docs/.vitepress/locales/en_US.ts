@@ -29,7 +29,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github',  link: 'https://github.com/KernelSU-Legacy' },
-      { icon: 'telegram', link: 'https://t.me/ksulegacy' }
     ]
   }
 })
